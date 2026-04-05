@@ -1,4 +1,4 @@
-import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
+import { DragDropContext, Draggable, Droppable } from '@hello-pangea/dnd';
 
 const TaskBoard = ({ tasks, onReorder, onComplete }) => {
   const handleDragEnd = (result) => {
